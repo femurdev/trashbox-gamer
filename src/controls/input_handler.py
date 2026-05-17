@@ -26,7 +26,7 @@ class InputHandler:
     def _init_controllers(self):
         """Initialize and map all connected controllers"""
         # Wait for joystick events
-        event = pygame.event.wait(timeout=2.0)
+        event = pygame.event.wait(timeout=2)
         if event.type == pygame.JOYDEVICEADDED:
             pygame.joystick.Joystick(event.axis).init()
 
