@@ -98,8 +98,10 @@ class MenuWindow(BaseWindow):
 
         # Draw subtitle
         subtitle = self.font_small.render(
-            "Multi-Platform Gaming Interface"
-        )
+                    "Multi-Platform Gaming Interface",
+                    True,
+                    (255, 255, 255)
+                )
         subtitle_rect = subtitle.get_rect(
             center=(self.width // 2, 130)
         )
