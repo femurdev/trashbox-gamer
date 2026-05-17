@@ -57,21 +57,21 @@ class MainGame:
         keys = self.input_handler.get_pressed_keys()
 
         # Example menu navigation
-        if keys.get(pygame.K_UP) or self.input_handler.get_button('UP'):
-            # Navigate up
-            print("Navigate up")
-        elif keys.get(pygame.K_DOWN) or self.input_handler.get_button('DOWN'):
-            # Navigate down
-            print("Navigate down")
-        elif keys.get(pygame.K_LEFT) or self.input_handler.get_button('LEFT'):
-            # Navigate left
-            print("Navigate left")
-        elif keys.get(pygame.K_RIGHT) or self.input_handler.get_button('RIGHT'):
-            # Navigate right
-            print("Navigate right")
-        elif keys.get(pygame.K_RETURN) or self.input_handler.get_button('A') or self.input_handler.get_button('X'):
-            # Select
-            print("Select")
+        if keys.get(pygame.K_UP) or self.input_handler.get_button('controller_1', 'UP'):
+                    # Navigate up
+                    print("Navigate up")
+        elif keys.get(pygame.K_DOWN) or self.input_handler.get_button('controller_1', 'DOWN'):
+                    # Navigate down
+                    print("Navigate down")
+        elif keys.get(pygame.K_LEFT) or self.input_handler.get_button('controller_1', 'LEFT'):
+                    # Navigate left
+                    print("Navigate left")
+        elif keys.get(pygame.K_RIGHT) or self.input_handler.get_button('controller_1', 'RIGHT'):
+                    # Navigate right
+                    print("Navigate right")
+        elif keys.get(pygame.K_RETURN) or self.input_handler.get_button('controller_1', 'A') or self.input_handler.get_button('controller_1', 'X'):
+                    # Select
+                    print("Select")
         elif keys.get(pygame.K_ESCAPE):
             # Close or quit
             self.quit()
