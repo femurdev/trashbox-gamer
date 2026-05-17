@@ -10,7 +10,7 @@ class BaseWindow:
         self.height = height
         self.title = title
         self.running = True
-        self.surface = None
+        self.surface = pygame.display.set_mode((self.width, self.height))
 
         pygame.init()
         pygame.display.set_caption(title)
