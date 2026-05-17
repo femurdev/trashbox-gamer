@@ -132,8 +132,10 @@ class MenuWindow(BaseWindow):
 
         # Draw system info
         info = self.font_small.render(
-            f"Controllers: {pygame.joystick.get_count()}"
-        )
+                    f"Controllers: {pygame.joystick.get_count()}",
+                    True,
+                    (255, 255, 255)
+                )
         info_rect = info.get_rect(
             x=50,
             y=self.height - 40
