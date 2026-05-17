@@ -1,0 +1,86 @@
+{
+  "minecraft": {
+    "controller_1": {
+      "keyboard": {
+        "up": "w",
+        "down": "s",
+        "left": "a",
+        "right": "d",
+        "jump": "space",
+        "sneak": "left_shift",
+        "sprint": "right_shift",
+        "interact": "left_ctrl",
+        "attack": "left_alt",
+        "inventory": "tab"
+      },
+      "controller": {
+        "up": "UP",
+        "down": "DOWN",
+        "left": "LEFT",
+        "right": "RIGHT",
+        "jump": "CROSS",
+        "sneak": "CIRCLE",
+        "sprint": "TRIANGLE",
+        "interact": "SQUARE",
+        "attack": "SQUARE",
+        "inventory": "OPTIONS"
+      }
+    },
+    "keyboard": {
+      "keyboard": {
+        "up": "w",
+        "down": "s",
+        "left": "a",
+        "right": "d",
+        "jump": "space",
+        "sneak": "left_shift",
+        "sprint": "right_shift",
+        "interact": "left_ctrl",
+        "attack": "left_alt",
+        "inventory": "tab"
+      }
+    }
+  },
+  "emulator": {
+    "controller_2": {
+      "controller": {
+        "dpad": {
+          "up": 0,
+          "down": 1,
+          "left": 2,
+          "right": 3,
+        },
+        "buttons": {
+          "A": 4,
+          "B": 5,
+          "X": 6,
+          "Y": 7,
+          "L1": 8,
+          "R1": 9,
+          "L2": 10,
+          "R2": 11,
+        }
+      }
+    },
+    "controller_3": {
+      "controller": {
+        "dpad": {
+          "up": 0,
+          "down": 1,
+          "left": 2,
+          "right": 3,
+        },
+        "buttons": {
+          "A": 4,
+          "B": 5,
+          "X": 6,
+          "Y": 7,
+          "L1": 8,
+          "R1": 9,
+          "L2": 10,
+          "R2": 11,
+        }
+      }
+    }
+  }
+}
